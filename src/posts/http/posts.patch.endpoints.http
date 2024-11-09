@@ -1,0 +1,11 @@
+POST http://localhost:3000/posts
+content-type: application/json
+
+{
+    "id" : 1234,
+    "post" : {
+        "title": "Hello World",
+        "content": "This is the content of the post"
+    }
+
+}

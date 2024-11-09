@@ -1,0 +1,19 @@
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title" : "My first post",
+    "post" : "post",
+    "slug" : "my-first-post",   
+    "status" : "draft",
+    "content" : "This is the content of my first post",
+    "featuredimageurl" : "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "publishedon" : "2024-02-20T12:00:00Z",
+    "tags" : ["post", "first", "post"],
+    "metaoptions" : [
+        {
+            "key" : "sidebarenabels",
+            "value" : true
+        }
+    ]
+}
